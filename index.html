@@ -26,7 +26,7 @@
             </button>
 
             <!-- C'est ici que ce trouve les vrais catégories. NE PAS OUBLIER L'ID POUR QU'IL SOIT CACHER DANS LE MENU BURGER -->
-            <div class="collapse navbar-collapse w-100 justify-content-center mt-5" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse w-100 justify-content-center mt-lg-5 mt-2" id="navbarSupportedContent">
                 <ul class="d-flex navbar-nav flex-row justify-content-center flex-lg-row flex-column">
                     <li class="nav-item mx-0"></li>
                     <a href="#" class="text-light text-decoration-none">
@@ -45,6 +45,7 @@
 
         </nav>
     </header>
+
 
     <main>
 
@@ -66,7 +67,31 @@
                         </p>
                     </div>
                     <div class="d-flex mt-3 flex-row-reverse">
-                        <button type="button" class="btn btn-primary w-50">En savoir plus</button>
+                        <button type="button" class="btn btn-primary w-50" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">En savoir plus
+                        </button>
+
+                        <!-- MODAL -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Climglagla</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Aussi froid qu'un esquimau.
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
 
@@ -81,7 +106,31 @@
                         </p>
                     </div>
                     <div class="d-flex mt-5 flex-row-reverse">
-                        <button type="button" class="btn btn-primary w-50">En savoir plus</button>
+                        <button type="button" class="btn btn-primary w-50" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal2">En savoir plus
+                        </button>
+
+                        <!-- MODAL -->
+                        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Ventilo6500</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Promis il est plus puissant que celui de la salle.
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
 
@@ -96,11 +145,36 @@
                         </p>
                     </div>
                     <div class="d-flex mt-5 flex-row-reverse">
-                        <button type="button" class="btn btn-primary w-50">En savoir plus</button>
+                        <button type="button" class="btn btn-primary w-50" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal3">En savoir plus
+                        </button>
+
+                        <!-- MODAL -->
+                        <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">PissIn</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Rafraichissant et cache vos traces !
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
         </div>
+
     </main>
 
 
